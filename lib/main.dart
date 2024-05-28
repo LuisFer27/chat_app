@@ -14,7 +14,7 @@ class App extends StatelessWidget {
       title: 'ChatFlutter',
       theme: ThemeData().copyWith(
           //use in old versions flutter 3
-          //useMaterial3: true,
+          useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(
               seedColor: const Color.fromARGB(255, 63, 17, 177))),
       home: const AuthScreen(),
