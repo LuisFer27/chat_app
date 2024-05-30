@@ -20,7 +20,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'ChatFlutter',
+        title: 'FlutterChat',
         theme: ThemeData().copyWith(
             //use in old versions flutter 3
             //useMaterial3: true,
